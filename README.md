@@ -46,7 +46,7 @@ docker-compose down
 
 ---
 
-##🔧 API Endpoints
+## 🔧 API Endpoints
 # POST /tasks
   Create a new task
 
