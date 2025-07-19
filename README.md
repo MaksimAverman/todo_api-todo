@@ -46,8 +46,8 @@ docker-compose down
 
 ---
 
-🔧 API Endpoints
-### POST /tasks
+##🔧 API Endpoints
+# POST /tasks
   Create a new task
 
 Example:
@@ -56,7 +56,7 @@ curl -X POST http://localhost:3000/tasks \
 -H "Content-Type: application/json" \
 -d "{\"text\":\"Test task\",\"status\":\"in progress\"}"
 
-### GET /tasks
+# GET /tasks
   Retrieve all tasks (with optional status filter)
 
 Example:
@@ -65,7 +65,7 @@ curl http://localhost:3000/tasks
 
 curl http://localhost:3000/tasks?status=completed
 
-### PATCH /tasks/:id
+# PATCH /tasks/:id
   Update the status of a task
 
 Example:
@@ -74,7 +74,7 @@ curl -X PATCH http://localhost:3000/tasks/1 \
 -H "Content-Type: application/json" \
 -d "{\"status\":\"completed\"}"
 
-### DELETE /tasks/:id
+# DELETE /tasks/:id
   Delete a task
 
 Example:
