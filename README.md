@@ -22,6 +22,7 @@ Supported features:
 Clone the repository:
 
 git clone https://github.com/MaksimAverman/todo_api-todo.git
+
 cd todo_api-todo
 
 ### Locally
