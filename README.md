@@ -63,10 +63,11 @@ curl -X POST http://localhost:3000/tasks \
   Retrieve all tasks (with optional status filter)
 
 Example:
-
+```bash
 curl http://localhost:3000/tasks
 
 curl http://localhost:3000/tasks?status=completed
+```
 
 ### PATCH /tasks/:id
   Update the status of a task
@@ -82,5 +83,6 @@ curl -X PATCH http://localhost:3000/tasks/1 \
   Delete a task
 
 Example:
-
+```bash
 curl -X DELETE http://localhost:3000/tasks/1
+```
