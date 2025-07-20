@@ -72,10 +72,11 @@ curl http://localhost:3000/tasks?status=completed
   Update the status of a task
 
 Example:
-
+```bash
 curl -X PATCH http://localhost:3000/tasks/1 \
 -H "Content-Type: application/json" \
 -d "{\"status\":\"completed\"}"
+```
 
 ### DELETE /tasks/:id
   Delete a task
