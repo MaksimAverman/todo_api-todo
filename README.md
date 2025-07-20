@@ -53,8 +53,8 @@ docker-compose down
 
 Example:
 
-curl -X POST http://localhost:3000/tasks \
--H "Content-Type: application/json" \
+curl -X POST http://localhost:3000/tasks "\"
+-H "Content-Type: application/json" "\"
 -d "{\"text\":\"Test task\",\"status\":\"in progress\"}"
 
 ### GET /tasks
@@ -71,8 +71,8 @@ curl http://localhost:3000/tasks?status=completed
 
 Example:
 
-curl -X PATCH http://localhost:3000/tasks/1 \
--H "Content-Type: application/json" \
+curl -X PATCH http://localhost:3000/tasks/1 "\"
+-H "Content-Type: application/json" "\"
 -d "{\"status\":\"completed\"}"
 
 ### DELETE /tasks/:id
