@@ -53,9 +53,11 @@ docker-compose down
 
 Example:
 
+```bash
 curl -X POST http://localhost:3000/tasks \
--H "Content-Type: application/json" \
--d "{\"text\":\"Test task\",\"status\":\"in progress\"}"
+  -H "Content-Type: application/json" \
+  -d '{"text":"Test task","status":"in progress"}'
+```
 
 ### GET /tasks
   Retrieve all tasks (with optional status filter)
